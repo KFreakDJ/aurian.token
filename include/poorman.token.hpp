@@ -1,6 +1,7 @@
 /**
  *  @file
  *  @copyright defined in eos/LICENSE.txt
+ *  forked from poorman.token-genereos
  */
 #pragma once
 
@@ -11,7 +12,7 @@
 
 using namespace eosio;
 
-namespace genereos {
+namespace aurian {
 
     using std::string;
 
@@ -23,7 +24,7 @@ namespace genereos {
             token( name receiver, name code, datastream<const char *> ds ):
                 contract( receiver, code, ds ) {}
             
-            // Genereos Token Contract
+            // Aurian Token Contract
             ACTION create( name  issuer,
                            asset maximum_supply );
 
@@ -83,4 +84,4 @@ namespace genereos {
         return ac.balance;
     }
 
-} // namespace genereos
+} // namespace aurian
