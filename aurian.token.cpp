@@ -64,7 +64,7 @@ namespace aurian {
 
         statstable.modify( st, same_payer, [&]( auto& s ) 
         {
-            s.supply -= quantity;
+            s.max_supply -= quantity;
         });
 
         sub_balance( from, quantity );
