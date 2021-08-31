@@ -3,9 +3,9 @@
  *  @copyright defined in eos/LICENSE.txt
  */
 
-#include "include/poorman.token.hpp"
+#include "include/aurian.token.hpp"
 
-namespace genereos {
+namespace aurian {
 
     void token::create( name issuer, asset maximum_supply ) 
     {
@@ -213,6 +213,6 @@ namespace genereos {
         } 
     }
 
-} // namespace genereos
+} // namespace aurian
 
-EOSIO_DISPATCH( genereos::token, (create)(issue)(issuefree)(burn)(signup)(transfer)(transferfree) )
+EOSIO_DISPATCH( aurian::token, (create)(issue)(issuefree)(burn)(signup)(transfer)(transferfree) )
