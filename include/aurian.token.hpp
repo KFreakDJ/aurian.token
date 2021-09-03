@@ -31,6 +31,7 @@ namespace aurian {
             ACTION issue(        name to, asset quantity, string memo             );
             ACTION issuefree(    name to, asset quantity, string memo             );
             ACTION burn(         name from, asset quantity, string memo           );
+            ACTION retire(       name from, asset quantity, string memo           );
             ACTION signup(       name owner, asset quantity                       );
             ACTION transfer(     name from, name to, asset quantity, string memo  );
             ACTION transferfree( name from, name to, asset quantity, string memo  );
