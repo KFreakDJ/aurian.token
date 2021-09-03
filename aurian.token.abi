@@ -54,6 +54,14 @@
           {"name":"memo", "type":"string"}
        ]
     },{
+       "name": "retire",
+       "base": "",
+       "fields": [
+          {"name":"from", "type":"account_name"},
+          {"name":"quantity", "type":"asset"},
+          {"name":"memo", "type":"string"}
+       ]
+    },{
        "name": "signup",
        "base": "",
        "fields": [
@@ -96,6 +104,10 @@
       "name": "burn",
       "type": "burn",
       "ricardian_contract": "## Burn Terms & Conditions\n\nI, {{from}} acknowledge that {{quantity}} will be irreversibly removed from my balance and this contract's supply.\nI, {{from}} acknowledge that if {{quantity}} is zero I am removing my interest in this contract and symbol with the desire of recovering my RAM costs."
+    },{
+      "name": "retire",
+      "type": "retire",
+      "ricardian_contract": "## Retire Terms & Conditions\n\nI, {{from}} acknowledge that {{quantity}} will be irreversibly removed from his balance and the contract's current circulating.\nI."
     },{
       "name": "signup",
       "type": "signup",
