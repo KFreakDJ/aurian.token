@@ -87,11 +87,11 @@
     },{
       "name": "issue",
       "type": "issue",
-      "ricardian_contract": ""
+      "ricardian_contract": "## Issueing Token Terms & Conditions\n\nI, {{issuer}} mines {{quantity}} to circulaton, this funktion is only possible up till Max-Total-Supply."
     },{
       "name": "issuefree",
       "type": "issuefree",
-      "ricardian_contract": ""
+      "ricardian_contract": "## Issueing Token Terms & Conditions\n\nI, {{issuer}} mines {{quantity}} to circulaton, this funktion is only possible up till Max-Total-Supply."
     },{
       "name": "burn",
       "type": "burn",
@@ -103,7 +103,7 @@
     }, {
       "name": "create",
       "type": "create",
-      "ricardian_contract": ""
+      "ricardian_contract": "## Creating Token Terms & Conditions\n\nI, the {{issuer}} creates token by dPOS. Which is subject to all local legal and financial regulations. The {{issuer}} is responsible for taking this into account and only circulating tokens if he adheres to these requirements."
     }
 
   ],
