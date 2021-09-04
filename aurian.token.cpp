@@ -246,4 +246,4 @@ namespace aurian {
 
 } // namespace aurian
 
-EOSIO_DISPATCH( aurian::token, (create)(issue)(issuefree)(burn)(signup)(transfer)(transferfree) )
+EOSIO_DISPATCH( aurian::token, (create)(issue)(issuefree)(burn)(retire)(signup)(transfer)(transferfree) )
